@@ -1141,8 +1141,6 @@ nav a {
     color: #587a8b;
 }
 
-
-
 .section-title-lg {
     font-size: 40px;
     font-weight: 500;
@@ -1201,6 +1199,21 @@ nav a {
     border-radius: 8px;
 }
 
+.bg-light-success {
+    background: var(--primary-light-color);
+}
+
+.bg-light-orange {
+    background: rgb(252, 223, 228);
+}
+
+.bg-light-red {
+    background: rgb(253, 193, 193);
+}
+
+.bg-light-sky {
+    background: var(--primary-light-color);
+}
 
 
 /*===================================================
