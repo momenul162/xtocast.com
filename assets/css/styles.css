@@ -1203,6 +1203,10 @@ nav a {
     background: var(--primary-light-color);
 }
 
+.bg-light-green {
+    background: rgb(215, 244, 215);
+}
+
 .bg-light-orange {
     background: rgb(252, 223, 228);
 }
@@ -1254,6 +1258,106 @@ nav a {
     padding: 50px;
 }
 
+/*===================================================
+	Contact us
+==================================================*/
+.bg-light-gray {
+    background: rgb(244, 243, 243);
+}
+
+.bg-btn {
+    background: var(--primary-color);
+}
+
+.bg-btn:hover {
+    background: #0e7ba3;
+}
+
+
+
+
+/*===================================================
+	What We Do Section
+==================================================*/
+.BambooHR-ATS-Jobs-Item {
+    margin-bottom: 0;
+
+    color: white;
+    border: none;
+    border-bottom: 3px solid #ffbf66 !important;
+    border-radius: 8px;
+    background-color: #082e4d;
+}
+
+#BambooHR h2 {
+    color: rgb(14, 21, 21);
+    display: block;
+    font-family: Nunito, sans-serif;
+    font-size: calc(1.3rem + .6vw) !important;
+    font-weight: 700;
+    padding-left: 10px;
+    border-bottom: 0 !important;
+    margin: 10px 0;
+}
+
+.BambooHR-ATS-Department-Header {
+    color: "rgb(156, 171, 184)";
+    display: block;
+    font-family: Nunito, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.BambooHR-ATS-Location {
+    color: #fff !important;
+    cursor: pointer;
+    display: block;
+    font-family: Nunito, sans-serif;
+    font-size: 14.4px;
+    font-weight: 400;
+    float: none !important;
+    display: block;
+    padding: 0;
+}
+
+#BambooHR-ATS {}
+
+#BambooHR-ATS .BambooHR-ATS-board {}
+
+.BambooHR-ATS-Department-List {}
+
+.BambooHR-ATS-Department-List .BambooHR-ATS-Department-Item {
+    margin: 10px 0 0 0;
+}
+
+.BambooHR-ATS-Department-List .BambooHR-ATS-Department-Item .BambooHR-ATS-Department-Header {
+    color: #aaa;
+    margin: 0 10px;
+}
+
+.BambooHR-ATS-Department-List .BambooHR-ATS-Department-Item .BambooHR-ATS-Jobs-List {
+    display: flex;
+    padding: 0 0 20px 0px;
+    border-bottom: 0;
+    flex-wrap: wrap;
+}
+
+.BambooHR-ATS-Department-List .BambooHR-ATS-Department-Item .BambooHR-ATS-Jobs-List .BambooHR-ATS-Jobs-Item {
+    background: #082e4d;
+    border-radius: 5px;
+    padding: 25px 20px;
+    margin: 10px !important;
+}
+
+
+.BambooHR-ATS-Department-List .BambooHR-ATS-Department-Item .BambooHR-ATS-Jobs-List .BambooHR-ATS-Jobs-Item a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+#BambooHR-ATS #BambooHR-Footer {
+    display: none;
+}
 
 
 
@@ -3163,6 +3267,12 @@ footer.skin-dark-footer .footer_widget ul li a:focus {
 }
 
 @media (max-width:360px) {}
+
+@media(min-width: 1200px) {
+    #BambooHR h2 {
+        font-size: 1.75rem !important;
+    }
+}
 
 /*====================================
  Bottom To top Button Design
