@@ -1200,23 +1200,23 @@ nav a {
 }
 
 .bg-light-success {
-    background: var(--primary-light-color);
+    background: var(--primary-light-color) !important;
 }
 
 .bg-light-green {
-    background: rgb(215, 244, 215);
+    background: rgb(230, 248, 230) !important;
 }
 
 .bg-light-orange {
-    background: rgb(252, 223, 228);
+    background: rgb(250, 242, 243) !important;
 }
 
 .bg-light-red {
-    background: rgb(253, 193, 193);
+    background: rgb(250, 223, 223) !important;
 }
 
 .bg-light-sky {
-    background: var(--primary-light-color);
+    background: #eef8fc !important;
 }
 
 
@@ -1277,20 +1277,19 @@ nav a {
 
 
 /*===================================================
-	What We Do Section
+	Career section
 ==================================================*/
 .BambooHR-ATS-Jobs-Item {
     margin-bottom: 0;
-
     color: white;
     border: none;
     border-bottom: 3px solid #ffbf66 !important;
     border-radius: 8px;
-    background-color: #082e4d;
+    background-color: var(--primary-light-color);
 }
 
 #BambooHR h2 {
-    color: rgb(14, 21, 21);
+    color: var(--primary-color);
     display: block;
     font-family: Nunito, sans-serif;
     font-size: calc(1.3rem + .6vw) !important;
@@ -1319,12 +1318,6 @@ nav a {
     display: block;
     padding: 0;
 }
-
-#BambooHR-ATS {}
-
-#BambooHR-ATS .BambooHR-ATS-board {}
-
-.BambooHR-ATS-Department-List {}
 
 .BambooHR-ATS-Department-List .BambooHR-ATS-Department-Item {
     margin: 10px 0 0 0;
